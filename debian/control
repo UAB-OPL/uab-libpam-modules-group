@@ -1,0 +1,15 @@
+Source: uab-libpam-modules-group
+Section: misc
+Priority: optional
+Maintainer: Jordi Román Mejias <Jordi.Roman@uab.cat>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+
+Package: uab-libpam-modules-group
+Architecture: all
+Depends: ${misc:Depends}, libpam-modules, libpam-runtime
+Provides: uab-pam-group
+Conflicts: mail-transport-agent
+Replaces: uab-pam-group
+Description: Enable pam_group module by default
+ This package enable the pam_group module as a requisite

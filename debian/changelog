@@ -1,0 +1,6 @@
+uab-libpam-modules-group (1.0+openuabr04~00) jammy; urgency=medium
+
+  * substitute uab-pam-group
+  * Initial release Enable pam-group (necessary for SU-116026, TASQ-5139)
+
+ -- Jordi Román Mejias <Jordi.Roman@uab.cat>  Wed, 04 Oct 2023 13:39:41 +0002

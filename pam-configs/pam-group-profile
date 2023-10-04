@@ -1,0 +1,6 @@
+Name: PAM Group
+Default: yes
+Priority: 900
+Auth-Type: Additional
+Auth:
+        required                        pam_group.so 
